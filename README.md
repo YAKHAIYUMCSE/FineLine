@@ -18,9 +18,11 @@ Versioning: latest valid version. The Motor Vehicles Act was amended several tim
 ## Dataset
 | Source | Link | Documents | Pages | Licence / terms |
 |---|---|---|---|---|
-| Motor Vehicles Act 1988 with all amending Acts, and Central Motor Vehicles Rules (India Code) | https://www.indiacode.nic.in/handle/123456789/1798 | [fill after download] | [fill] | Government of India public documents, check site terms |
-| Tamil Nadu Transport Department policy notes | [] | [fill] | [fill] | Government publication, check site terms |
-| MoRTH "Road Accidents in India" reports 2015-2024 | [] | 10 reports | [fill] | Government publication, check site terms |
+| Motor Vehicles Act 1988 (India Code) | https://www.indiacode.nic.in | 1 (Act No. 59 of 1988) | Collected (count in data/README) | Government of India public document, free for public use with source acknowledged |
+| Motor Vehicles (Amendment) Act 2019 and other amending Acts | https://www.indiacode.nic.in | 2+ planned | In progress | Government of India public document, free for public use with source acknowledged |
+| Central Motor Vehicles Rules 1989 | https://www.indiacode.nic.in | 1 | Planned (Week 2) | Government of India public document, free for public use with source acknowledged |
+| Tamil Nadu Transport Department policy notes | https://www.tn.gov.in | To be identified | Planned (Week 3) | Government publication, public |
+| MoRTH "Road Accidents in India" reports 2015-2024 | https://morth.nic.in | 10 reports | Planned (Week 3) | Government publication, public |
 | **Target total** | | | **2,500+ pages** | |
 
 ## 10 real questions
