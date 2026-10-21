@@ -1,6 +1,5 @@
-# <Your product name>
+# FineLine
 
-> Fill this top section from your Examate project card on Day 1. Replace every line in angle brackets.
 
 ## Problem
 Drivers in Tamil Nadu see old fine charts on social media and argue with traffic officers, because the Motor Vehicles Act has been amended many times, with a big penalty increase in 2019 and later changes. States also set their own compounding amounts. Driving school instructors who help learners, lorry drivers and auto drivers with challans cannot easily find the rule as it stood on the date of the offence. FineLine stores every section as dated versions and gives the correct rule and penalty for the challan date, in Tamil or English, with a citation and a diff of what changed.
