@@ -27,6 +27,7 @@ Versioning: latest valid version. The Motor Vehicles Act was amended several tim
 ## 10 real questions
 See [docs/QUESTIONS.md](docs/QUESTIONS.md).
 
+
 ## Run it
 ```bash
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
