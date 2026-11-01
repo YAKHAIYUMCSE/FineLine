@@ -24,6 +24,14 @@ Versioning: latest valid version. The Motor Vehicles Act was amended several tim
 | MoRTH "Road Accidents in India" reports 2015-2024 | https://morth.nic.in | 10 reports | Planned (Week 3) | Government publication, public |
 | **Target total** | | | **2,500+ pages** | |
 
+## Run with Docker
+
+    Copy-Item .env.example .env 
+    docker compose up --build
+    curl.exe localhost:8000/ready
+
+Set `LLM_PROVIDER=fake` in `.env` for a run that needs no API key. The API runs at http://localhost:8000 and Postgres with pgvector at localhost:5432. Use `docker compose down` to stop (never `down -v`, which deletes the database).
+
 ## 10 real questions
 See [docs/QUESTIONS.md](docs/QUESTIONS.md).
 
