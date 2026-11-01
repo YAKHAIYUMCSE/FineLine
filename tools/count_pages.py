@@ -1,5 +1,7 @@
 import os
+
 from pypdf import PdfReader
+
 CODE = (".py", ".java", ".go", ".c", ".h", ".js", ".ts", ".scala", ".rs", ".kt", ".yaml", ".yml")
 pdf_pages = html = code = broken = 0
 for folder, _, files in os.walk("data/raw"):
