@@ -1,1 +1,2 @@
-https://www.indiacode.nic.in/handle/123456789/1798
+# Downloaded manually in a browser because the script was blocked by robots.txt and the old links gave errors
+# Motor Vehicles Act 1988, as on 15 Aug 2026: https://indiacode.gov.in/pdf-viewer/2bbbcc40-38f1-4b15-ae94-646b85db4ee7/031fe0a8-b3a6-4da2-b130-ec2e870fe4f2
