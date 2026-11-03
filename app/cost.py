@@ -11,7 +11,7 @@ def cost_usd(usage: Usage, price_in_per_m: float, price_out_per_m: float) -> flo
         usage.input_tokens * price_in_per_m + usage.output_tokens * price_out_per_m
     ) / 1_000_000
 
-
+    
 def log_call(
     path: str,
     *,
