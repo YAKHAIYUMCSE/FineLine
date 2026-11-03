@@ -1,0 +1,11 @@
+n,question,ok,input_tokens,output_tokens,estimated,cost_usd,latency_s,answer_chars,error
+1,"What is the penalty for driving without a licence today, and what was it before September 2019?",True,24,450,False,0.0017055,41.45,1675,
+2,Is a pillion rider without a helmet also fined?,True,12,133,False,0.00050775,27.46,531,
+3,How many road accidents did Tamil Nadu record in 2024 compared with 2022?,True,23,418,False,0.00158475,30.73,1487,
+4,What was the fine for no helmet in March 2019 and what is it in 2026?,True,26,484,False,0.0018345,14.71,1775,
+5,"Drunk driving fine 2019-ku munnadi evlo, ippo evlo?",True,23,228,False,0.00087225,23.09,647,
+6,I got a challan for not wearing a seat belt. Which section applies and how much is the fine?,True,93,2048,False,0.00774975,33.2,0,
+7,What is the fine for using a mobile phone while driving?,True,13,78,False,0.00030225,23.03,334,
+8,What is the fine for driving an overloaded lorry?,True,11,772,False,0.00290325,16.75,2778,
+9,How many people died in road accidents in Tamil Nadu in 2022?,True,18,186,False,0.000711,11.23,668,
+10,What will the traffic fine for no helmet be in 2030?,True,17,525,False,0.0019815,25.04,1990,
