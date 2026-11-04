@@ -1,5 +1,8 @@
 # FineLine
 
+[![CI](https://github.com/YAKHAIYUMCSE/FineLine/actions/workflows/ci.yml/badge.svg)](https://github.com/YAKHAIYUMCSE/FineLine/actions/workflows/ci.yml)
+
+**Live:** https://fineline-2fo8.onrender.com/health · first request after 15 idle minutes takes about a minute (free tier)
 
 ## Problem
 Drivers in Tamil Nadu see old fine charts on social media and argue with traffic officers, because the Motor Vehicles Act has been amended many times, with a big penalty increase in 2019 and later changes. States also set their own compounding amounts. Driving school instructors who help learners, lorry drivers and auto drivers with challans cannot easily find the rule as it stood on the date of the offence. FineLine stores every section as dated versions and gives the correct rule and penalty for the challan date, in Tamil or English, with a citation and a diff of what changed.
@@ -17,11 +20,11 @@ Versioning: latest valid version. The Motor Vehicles Act was amended several tim
 ## Dataset
 | Source | Link | Documents | Pages | Licence / terms |
 |---|---|---|---|---|
-| Motor Vehicles Act 1988 (India Code) | https://www.indiacode.nic.in | 1 (Act No. 59 of 1988) | Collected (count in data/README) | Government of India public document, free for public use with source acknowledged |
-| Motor Vehicles (Amendment) Act 2019 and other amending Acts | https://www.indiacode.nic.in | 2+ planned | In progress | Government of India public document, free for public use with source acknowledged |
-| Central Motor Vehicles Rules 1989 | https://www.indiacode.nic.in | 1 | Planned (Week 2) | Government of India public document, free for public use with source acknowledged |
-| Tamil Nadu Transport Department policy notes | https://www.tn.gov.in | To be identified | Planned (Week 3) | Government publication, public |
-| MoRTH "Road Accidents in India" reports 2015-2024 | https://morth.nic.in | 10 reports | Planned (Week 3) | Government publication, public |
+| Motor Vehicles Act 1988, text as on 15 Aug 2026 (India Code) | https://indiacode.gov.in | 1 (Act No. 59 of 1988) | 176 (collected 1 Nov 2026) | India Code Copyright Policy (updated 22 Jun 2026): limited personal, non-commercial use with source cited; no redistribution. One sample PDF is committed with trainer approval. |
+| Motor Vehicles (Amendment) Act 2019 and other amending Acts | https://indiacode.gov.in | 2+ planned | Planned (Week 3) | Same policy |
+| Central Motor Vehicles Rules 1989 | https://indiacode.gov.in | 1 | Planned (Week 3) | Same policy |
+| Tamil Nadu Transport Department policy notes | https://www.tn.gov.in | To be identified | Planned (Week 3) | Government publication; terms to be checked |
+| MoRTH "Road Accidents in India" reports 2015-2024 | https://morth.gov.in | 10 reports | Planned (Week 3) | Government publication; terms to be checked |
 | **Target total** | | | **2,500+ pages** | |
 
 ## Run with Docker
@@ -46,4 +49,4 @@ curl localhost:8000/health
 ```
 
 ## Live link
-<Added in Week 2>
+https://fineline-2fo8.onrender.com/docs
