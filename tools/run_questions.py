@@ -3,6 +3,7 @@
 Usage: python tools/run_questions.py [base_url]
 Writes docs/cost_run.csv and prints totals and averages.
 """
+
 import csv
 import json
 import sys
@@ -36,9 +37,9 @@ def ask(client: httpx.Client, question: str) -> dict:
     with client.stream("POST", f"{BASE}/chat", json=body, timeout=120) as response:
         for line in response.iter_lines():
             if line.startswith("event:"):
-                event = line[len("event:"):].strip()
+                event = line[len("event:") :].strip()
             elif line.startswith("data:"):
-                data = json.loads(line[len("data:"):].strip())
+                data = json.loads(line[len("data:") :].strip())
                 if event == "done":
                     done = data
                 elif event == "error":

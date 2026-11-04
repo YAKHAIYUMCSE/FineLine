@@ -1,4 +1,5 @@
 """Builds the provider chosen in .env. The rest of the app never names a provider."""
+
 from app.config import Settings
 from app.llm.fake import FakeProvider
 from app.llm.fallback import FallbackProvider

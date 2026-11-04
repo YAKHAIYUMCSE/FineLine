@@ -30,6 +30,7 @@ def health(settings: SettingsDep) -> dict:
     """Liveness: the process is up. Must be fast and must not call the LLM or the DB."""
     return {"status": "ok", "app": settings.app_name, "environment": settings.environment}
 
+
 @app.get("/ready")
 def ready(settings: SettingsDep):
     """Readiness: dependencies are reachable. Load balancers and hosts use this."""
@@ -44,6 +45,7 @@ def ready(settings: SettingsDep):
             status_code=503,
             content={"status": "not ready", "database": str(exc)[:200]},
         )
+
 
 def sse(data: dict, event: str | None = None) -> str:
     prefix = f"event: {event}\n" if event else ""

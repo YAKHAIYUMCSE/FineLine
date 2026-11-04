@@ -26,7 +26,7 @@ Versioning: latest valid version. The Motor Vehicles Act was amended several tim
 
 ## Run with Docker
 
-    Copy-Item .env.example .env 
+    Copy-Item .env.example .env
     docker compose up --build
     curl.exe localhost:8000/ready
 

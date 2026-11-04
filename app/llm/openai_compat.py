@@ -4,6 +4,7 @@ Reliability: per-call timeout, retries with exponential backoff and full jitter 
 timeouts, connection errors, HTTP 429 and HTTP 5xx. Client errors (400, 401, 403, 404)
 are not retried because retrying cannot fix them.
 """
+
 import asyncio
 import json
 import random
@@ -65,9 +66,7 @@ class OpenAICompatProvider:
         for attempt in range(self.max_retries + 1):
             produced_any = False
             try:
-                async with httpx.AsyncClient(
-                    timeout=self.timeout, transport=self.transport
-                ) as client:
+                async with httpx.AsyncClient(timeout=self.timeout, transport=self.transport) as client:
                     async with client.stream(
                         "POST",
                         f"{self.base_url}/chat/completions",
@@ -87,7 +86,7 @@ class OpenAICompatProvider:
                         async for line in response.aiter_lines():
                             if not line.startswith("data:"):
                                 continue
-                            data = line[len("data:"):].strip()
+                            data = line[len("data:") :].strip()
                             if data == "[DONE]":
                                 break
                             chunk = json.loads(data)
